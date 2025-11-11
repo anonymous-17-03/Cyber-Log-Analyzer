@@ -86,15 +86,6 @@ python3 cyber_log_analyzer.py
 
 ---
 
-## 💡 Posibles mejoras futuras
-
-🔹 Implementar detección de anomalías o patrones sospechosos.
-🔹 Añadir soporte para lectura directa de logs en tiempo real.
-🔹 Integrar un panel interactivo con **Streamlit** o **Dash**.
-🔹 Añadir alertas automáticas por nivel de severidad.
-
----
-
 ## 🧑‍💻 Autor
 
 **Víctor García**
