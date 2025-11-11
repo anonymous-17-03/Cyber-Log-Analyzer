@@ -44,7 +44,7 @@ Cyber-Log-Analyzer/
 
 ## 🧠 Uso
 
-1. Coloca tu archivo de logs en formato CSV con los siguientes campos mínimos:
+1. Coloca tu archivo de logs en formato CSV con los siguientes campos mínimos (Puede usar el ejemplo `cybersecurity_log.csv`):
 
 | FechaHora        | IP           | Puerto | TipoAtaque   | Severidad | Detalles              |
 | ---------------- | ------------ | ------ | ------------ | --------- | --------------------- |
