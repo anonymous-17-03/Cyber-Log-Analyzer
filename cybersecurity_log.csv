@@ -1,0 +1,244 @@
+FechaHora,IP,Puerto,TipoAtaque,Severidad,Detalles
+2025-11-05 13:42,10.0.0.12,22,Brute Force,Media,Intentos SSH desde 5 IPs distintas
+2025-11-08 00:05,192.168.1.10,80,DDoS,Alta,SYN flood hacia /login
+2025-11-09 07:18,172.16.0.8,3389,Ransomware,Alta,Proceso que cifra .docx
+2025-11-07 19:50,10.0.0.45,443,Phishing,Baja,Formulario de login clonado
+2025-11-06 02:22,192.168.1.22,8080,XSS,Media,Reflected XSS en parámetro q
+2025-11-10 11:05,10.0.0.5,21,Brute Force,Media,FTP: intentos con lista común
+2025-11-04 23:15,172.16.0.10,23,Telnet Scan,Baja,Escaneo de puerto 23
+2025-11-08 14:40,192.168.1.30,3306,SQL Injection,Alta,Inyección con UNION SELECT
+2025-11-05 08:05,10.0.0.20,445,WannaCry,Alta,Tráfico SMB sospechoso
+2025-11-07 09:32,192.168.1.15,22,Brute Force,Media,SSH: intentos automatizados
+2025-11-06 21:10,10.0.0.27,,Port Scan,Baja,
+2025-11-09 16:45,172.16.0.12,23,Telnet Scan,Baja,Probes continuos
+2025-11-05 17:05,192.168.1.35,5900,Backdoor,Alta,Conexión VNC no autorizada
+2025-11-08 03:50,10.0.0.31,53,DNS Amplification,Alta,Respuesta DNS amplificada
+2025-11-04 10:40,192.168.1.11,22,Brute Force,Media,SSH: credenciales probadas
+2025-11-10 02:55,172.16.0.14,25,Phishing,Baja,Correo con adjunto zip
+2025-11-09 12:30,10.0.0.9,80,DDoS,Alta,HTTP flood a /api
+2025-11-07 06:20,192.168.1.44,8080,Exploit Kit,Alta,Descarga de payload
+2025-11-04 22:05,10.0.0.21,53,DNS Amplification,Alta,Query con SRC spoofing
+2025-11-06 13:45,192.168.1.12,3306,SQL Injection,Alta,Inyección en parámetro id
+2025-11-05 11:50,10.0.0.5,22,Brute Force,Media,SSH: múltiples intentos
+2025-11-10 08:10,172.16.0.20,5000,SSRF,Media,Acceso a metadata interna
+2025-11-04 14:25,192.168.1.13,21,Brute Force,Media,FTP: fuerza bruta con diccionario
+2025-11-09 18:15,10.0.0.25,8080,XSS,Media,Stored XSS en comentarios
+2025-11-05 03:40,172.16.0.9,22,Credential Stuffing,Alta,Alta tasa de logins fallidos
+2025-11-08 20:55,192.168.1.17,8443,SSL Vulnerability,Alta,Exploit TLS obsoleto
+2025-11-07 15:05,10.0.0.27,21,Brute Force,Media,FTP bots detectados
+2025-11-06 01:10,192.168.1.19,25,Phishing,Baja,Correo con enlace malicioso
+2025-11-09 04:50,172.16.0.11,139,SMB Scan,Baja,Escaneo SMB en subred
+2025-11-10 19:35,10.0.0.5,443,Phishing,Baja,Redirect a sitio falso
+2025-11-08 22:05,192.168.1.20,3389,Ransomware,Alta,Proceso que crea .locked
+2025-11-07 02:30,10.0.0.29,5901,Backdoor,Alta,Conexión VNC persistente
+2025-11-06 12:45,172.16.0.15,22,Brute Force,Media,SSH: ataques desde botnet
+2025-11-09 09:55,192.168.1.25,3306,SQL Injection,Alta,Consulta UNION maliciosa
+2025-11-05 21:10,10.0.0.30,8080,XSS,Media,Reflected XSS en /search
+2025-11-04 07:05,172.16.0.16,23,Telnet Scan,Baja,Probes Telnet detectados
+2025-11-08 17:20,192.168.1.26,445,WannaCry,Alta,Propagación SMB interna
+2025-11-06 09:00,10.0.0.31,5000,SSRF,Media,Petición a metadata service
+2025-11-10 05:45,172.16.0.18,21,Brute Force,Media,FTPBots con IPs rotativas
+2025-11-04 16:30,192.168.1.27,25,Phishing,Baja,Reporte de correo fraudulento
+2025-11-09 23:40,10.0.0.32,53,DNS Amplification,Alta,Respuesta DNS con payload grande
+2025-11-07 11:55,172.16.0.19,22,Brute Force,Media,SSH: intentos desde rango dinámico
+2025-11-05 02:15,192.168.1.28,1433,SQL Injection,Alta,SQLi en servicio MSSQL
+2025-11-08 13:10,10.0.0.33,,Port Scan,Baja,
+2025-11-10 14:05,172.16.0.21,3306,SQL Injection,Alta,Inyección con exfil parcial
+2025-11-06 18:40,192.168.1.29,5900,Backdoor,Alta,Conexión VNC externa
+2025-11-04 20:20,10.0.0.34,80,DDoS,Alta,Amplificación HTTP a /home
+2025-11-09 15:30,172.16.0.22,22,Brute Force,Media,SSH: varios intentos fallidos
+2025-11-07 04:55,192.168.1.33,3389,Ransomware,Alta,Proceso sospechoso en RDP
+2025-11-06 23:10,10.0.0.35,8080,Exploit Kit,Alta,Exploit kit intenta shell
+2025-11-10 10:15,172.16.0.23,3306,SQL Injection,Alta,Injection detectada en API
+2025-11-05 16:05,192.168.1.34,21,Brute Force,Media,FTP: intentos con contraseñas comunes
+2025-11-08 06:40,10.0.0.36,23,Telnet Scan,Baja,Escaneo script kiddie
+2025-11-09 01:00,172.16.0.24,5901,Backdoor,Alta,VNC con autenticación no estándar
+2025-11-07 20:35,192.168.1.36,80,DDoS,Alta,GET flood a /api/cart
+2025-11-04 09:20,10.0.0.37,443,Phishing,Baja,Form spoofing detectado
+2025-11-06 14:50,172.16.0.25,8080,Exploit Kit,Alta,Descarga de payload detectada
+2025-11-10 03:25,192.168.1.37,445,WannaCry,Alta,Actividad de cifrado en share
+2025-11-05 19:10,10.0.0.38,21,Brute Force,Media,Intentos FTP desde proxies
+2025-11-08 12:00,172.16.0.26,3306,SQL Injection,Alta,Error SQL explotado
+2025-11-09 05:55,192.168.1.38,22,Brute Force,Media,SSH: fuerza bruta detectada
+2025-11-07 17:45,10.0.0.39,53,DNS Amplification,Alta,Respuesta DNS inusualmente grande
+2025-11-04 15:30,172.16.0.27,23,Telnet Scan,Baja,Probes recurrentes en puerto 23
+2025-11-10 21:10,192.168.1.39,80,DDoS,Alta,Spike de solicitudes concurrentes
+2025-11-06 07:15,10.0.0.40,3389,Ransomware,Alta,Servicio RDP explotado
+2025-11-08 01:50,172.16.0.28,8080,XSS,Media,Cross-site scripting en /comment
+2025-11-09 11:20,192.168.1.40,3306,SQL Injection,Alta,Union select detectado
+2025-11-05 10:30,10.0.0.41,22,Brute Force,Media,SSH con intentos automatizados
+2025-11-07 13:25,172.16.0.29,445,WannaCry,Alta,Tráfico lateral SMB observado
+2025-11-04 18:05,192.168.1.41,21,Brute Force,Media,FTP con credenciales probadas
+2025-11-10 16:00,10.0.0.42,8080,Exploit Kit,Alta,Intento RCE detectado
+2025-11-06 05:40,172.16.0.30,25,Phishing,Baja,Correo con dominio forjado
+2025-11-08 09:10,192.168.1.42,5900,Backdoor,Alta,Conexión VNC desde IP externa
+2025-11-09 20:50,10.0.0.43,1433,SQL Injection,Alta,Inyección en servicio MSSQL
+2025-11-05 22:15,172.16.0.31,23,Telnet Scan,Baja,Host responde a probes Telnet
+2025-11-07 01:05,192.168.1.43,80,DDoS,Alta,GET flood a /checkout
+2025-11-10 12:40,10.0.0.44,443,Phishing,Baja,Formulario comprometido con redirect
+2025-11-04 06:55,172.16.0.32,22,Brute Force,Media,SSH: credenciales comunes probadas
+2025-11-08 18:20,192.168.1.44,3306,SQL Injection,Alta,Intento extracción masiva
+2025-11-09 02:30,10.0.0.45,8080,XSS,Media,Reflected XSS en buscador
+2025-11-06 16:10,172.16.0.33,25,Phishing,Baja,Reporte de correo con adjunto
+2025-11-05 14:05,192.168.1.45,,Port Scan,Baja,
+2025-11-10 00:20,10.0.0.46,21,Brute Force,Media,FTP bots detectados
+2025-11-07 22:55,172.16.0.34,445,WannaCry,Alta,Actividad de propagación SMB
+2025-11-04 11:40,192.168.1.46,3389,Ransomware,Alta,Proceso de cifrado detectado
+2025-11-08 04:10,10.0.0.47,53,DNS Amplification,Alta,Query malicioso detectado
+2025-11-09 13:50,172.16.0.35,5901,Backdoor,Alta,Acceso remoto persistente detectado
+2025-11-06 20:25,192.168.1.47,22,Brute Force,Media,SSH: fuerza bruta desde botnet
+2025-11-05 01:30,10.0.0.48,80,DDoS,Alta,Petición masiva a /api/auth
+2025-11-10 09:55,172.16.0.36,23,Telnet Scan,Baja,Probes en puerto 23
+2025-11-07 12:00,192.168.1.48,3306,SQL Injection,Alta,Payload inyectado en user param
+2025-11-04 19:50,10.0.0.49,8080,Exploit Kit,Alta,Carga de shell reverso detectada
+2025-11-08 15:35,172.16.0.37,21,Brute Force,Media,Intentos FTP masivos
+2025-11-09 17:05,192.168.1.49,25,Phishing,Baja,Campaña de spear-phishing interna
+2025-11-06 03:20,10.0.0.50,22,Brute Force,Media,SSH brute-force con diccionario
+2025-11-10 07:15,172.16.0.38,5900,Backdoor,Alta,Cliente VNC no autorizado
+2025-11-05 18:45,192.168.1.50,443,Phishing,Baja,Formulario de login fraudulento
+2025-11-07 08:40,10.0.0.51,3389,Ransomware,Alta,Actividad sospechosa en RDP
+2025-11-04 05:10,172.16.0.39,445,WannaCry,Alta,Exploit SMB detectado
+2025-11-09 10:20,192.168.1.51,8080,XSS,Media,Script inyectado en parámetro search
+2025-11-08 23:55,10.0.0.52,3306,SQL Injection,Alta,Intento de extracción parcial
+2025-11-06 10:05,172.16.0.40,21,Brute Force,Media,FTP intentos repetidos
+2025-11-05 06:40,192.168.1.52,80,DDoS,Alta,Spike de tráfico web
+2025-11-10 15:30,10.0.0.53,22,Brute Force,Media,SSH: varios intentos desde proxys
+2025-11-07 03:45,172.16.0.41,53,DNS Amplification,Alta,Respuesta DNS manipulada
+2025-11-09 21:10,192.168.1.53,5901,Backdoor,Alta,Acceso VNC persistente detectado
+2025-11-04 12:25,10.0.0.54,80,DDoS,Alta,GET flood a /products
+2025-11-08 02:10,172.16.0.42,8080,Exploit Kit,Alta,Descarga de binario sospechoso
+2025-11-06 22:55,192.168.1.54,3306,SQL Injection,Alta,SQLi en endpoint interno
+2025-11-05 09:15,10.0.0.55,21,Brute Force,Media,Intentos FTP con lista común
+2025-11-10 13:05,172.16.0.43,23,Telnet Scan,Baja,Escaneo automatizado
+2025-11-07 16:20,192.168.1.55,22,Brute Force,Media,SSH: ataques persistentes desde botnet
+2025-11-09 14:00,10.0.0.56,443,Phishing,Baja,Redirect a página clonada
+2025-11-04 21:35,172.16.0.44,445,WannaCry,Alta,Actividad de cifrado detectada
+2025-11-08 11:20,192.168.1.56,8080,XSS,Media,Cross-site scripting en campo comentario
+2025-11-05 04:45,10.0.0.57,5900,Backdoor,Alta,Conexión VNC sospechosa externa
+2025-11-10 17:55,172.16.0.45,3306,SQL Injection,Alta,Inyección en consulta de login
+2025-11-06 08:05,192.168.1.57,21,Brute Force,Media,FTP bots con IPs rotativas
+2025-11-09 19:25,10.0.0.58,25,Phishing,Baja,Correo con adjunto exe
+2025-11-07 10:50,172.16.0.46,22,Brute Force,Media,SSH: múltiples fallos por segundo
+2025-11-04 16:55,192.168.1.58,80,DDoS,Alta,Tráfico anómalo en /search
+2025-11-08 05:35,10.0.0.59,3389,Ransomware,Alta,Proceso de cifrado parcial
+2025-11-06 00:15,172.16.0.47,8080,Exploit Kit,Alta,Carga de webshell
+2025-11-09 06:30,192.168.1.59,3306,SQL Injection,Alta,Union select en parámetro user
+2025-11-05 20:00,10.0.0.60,53,DNS Amplification,Alta,Respuestas DNS anómalas
+2025-11-10 01:35,172.16.0.48,23,Telnet Scan,Baja,Probes desde escáner público
+2025-11-07 23:20,192.168.1.60,21,Brute Force,Media,FTP: fuerza bruta con lista
+2025-11-04 13:05,10.0.0.61,8080,XSS,Media,Stored XSS en /comments
+2025-11-09 02:40,172.16.0.49,5901,Backdoor,Alta,Acceso remoto detectado
+2025-11-06 15:30,192.168.1.61,22,Brute Force,Media,SSH: ataques con diccionario
+2025-11-08 10:10,10.0.0.62,80,DDoS,Alta,HTTP flood con múltiples UA
+2025-11-05 07:55,172.16.0.50,3306,SQL Injection,Alta,Intento de extracción masiva
+2025-11-10 18:40,192.168.1.62,445,WannaCry,Alta,Exploit SMB intentado
+2025-11-07 14:15,10.0.0.63,,Port Scan,Baja,
+2025-11-04 01:25,172.16.0.51,21,Brute Force,Media,FTP: intentos repetidos desde botnet
+2025-11-09 08:55,192.168.1.63,3389,Ransomware,Alta,Proceso que modifica permisos
+2025-11-06 11:40,10.0.0.64,22,Brute Force,Media,SSH: varios intentos fallidos
+2025-11-08 16:45,172.16.0.52,8080,Exploit Kit,Alta,Intento de RCE mediante upload
+2025-11-05 23:05,192.168.1.64,80,DDoS,Alta,Amplificación HTTP a /api
+2025-11-10 06:50,10.0.0.65,5900,Backdoor,Alta,VNC accesado sin credenciales
+2025-11-04 17:30,172.16.0.53,3306,SQL Injection,Alta,Inyección con error SQL
+2025-11-07 01:45,192.168.1.65,25,Phishing,Baja,Correo con remitente suplantado
+2025-11-09 22:10,10.0.0.66,53,DNS Amplification,Alta,Tráfico DNS anómalo
+2025-11-06 19:55,172.16.0.54,23,Telnet Scan,Baja,Escaneo de red
+2025-11-08 07:05,192.168.1.66,22,Brute Force,Media,SSH: intentos desde múltiples IPS
+2025-11-05 12:20,10.0.0.67,8080,XSS,Media,Reflected XSS detectado
+2025-11-10 20:30,172.16.0.55,445,WannaCry,Alta,Cifrado en shares detectado
+2025-11-04 02:50,192.168.1.67,21,Brute Force,Media,Intentos FTP con listas
+2025-11-09 03:35,10.0.0.68,3389,Ransomware,Alta,Acceso RDP con payload sospechoso
+2025-11-07 18:25,172.16.0.56,3306,SQL Injection,Alta,Inyección en consulta select
+2025-11-06 04:10,192.168.1.68,80,DDoS,Alta,Requests concurrentes a /checkout
+2025-11-08 21:45,10.0.0.69,22,Brute Force,Media,SSH brute-force desde botnet
+2025-11-05 15:00,172.16.0.57,5901,Backdoor,Alta,VNC con actividad inusual
+2025-11-09 11:05,192.168.1.69,25,Phishing,Baja,Correo con enlace a dropper
+2025-11-10 09:20,10.0.0.70,53,DNS Amplification,Alta,Respuesta DNS amplificada
+2025-11-04 08:45,172.16.0.58,23,Telnet Scan,Baja,Host responde a probes
+2025-11-06 17:35,192.168.1.70,8080,Exploit Kit,Alta,Intento de shell upload
+2025-11-08 19:15,10.0.0.71,3306,SQL Injection,Alta,Union select en endpoint
+2025-11-05 00:40,172.16.0.59,21,Brute Force,Media,FTP bots detectados por IDS
+2025-11-07 05:25,192.168.1.71,80,DDoS,Alta,GET flood hacia /home
+2025-11-09 13:10,10.0.0.72,8080,XSS,Media,Stored XSS en widget
+2025-11-06 02:00,172.16.0.60,5900,Backdoor,Alta,Conexión remota no autorizada
+2025-11-10 22:55,192.168.1.72,22,Brute Force,Media,SSH: intentos de fuerza bruta
+2025-11-04 18:10,10.0.0.73,3389,Ransomware,Alta,Proceso que cifra recursos compartidos
+2025-11-08 14:50,172.16.0.61,25,Phishing,Baja,Correo con adjunto sospechoso
+2025-11-05 19:00,192.168.1.73,445,WannaCry,Alta,Actividad de propagación SMB
+2025-11-07 09:05,10.0.0.74,21,Brute Force,Media,FTP: intentos repetidos
+2025-11-09 16:55,172.16.0.62,3306,SQL Injection,Alta,Inyección detectada en API pública
+2025-11-06 06:30,192.168.1.74,80,DDoS,Alta,Spike de tráfico desde proxies
+2025-11-10 12:10,10.0.0.75,8080,Exploit Kit,Alta,Descarga de exploit identificada
+2025-11-04 03:15,172.16.0.63,22,Brute Force,Media,SSH bots probando credenciales
+2025-11-08 23:30,192.168.1.75,5901,Backdoor,Alta,Conexión VNC con shell
+2025-11-09 20:05,10.0.0.76,53,DNS Amplification,Alta,Respuesta DNS con payload extraño
+2025-11-05 13:55,172.16.0.64,23,Telnet Scan,Baja,Probes desde IP pública
+2025-11-07 21:40,192.168.1.76,3306,SQL Injection,Alta,Intento de dump de tabla users
+2025-11-06 10:50,10.0.0.77,8080,XSS,Media,Cross-site scripting en /post
+2025-11-08 02:55,172.16.0.65,21,Brute Force,Media,FTP con intentos desde proxies
+2025-11-04 20:00,192.168.1.77,80,DDoS,Alta,Petición concurrente masiva
+2025-11-10 04:35,10.0.0.78,3389,Ransomware,Alta,Actividad sospechosa en RDP
+2025-11-09 01:40,172.16.0.66,445,WannaCry,Alta,Exploit SMB detectado
+2025-11-05 17:20,192.168.1.78,22,Brute Force,Media,SSH intentos automáticos
+2025-11-07 07:55,10.0.0.79,5900,Backdoor,Alta,Conexión remota no autorizada
+2025-11-06 12:05,172.16.0.67,3306,SQL Injection,Alta,Injection en parámetro id
+2025-11-08 16:00,192.168.1.79,8080,Exploit Kit,Alta,Intento de ejecución remoto
+2025-11-04 14:40,10.0.0.80,25,Phishing,Baja,Correo con enlace a sitio falso
+2025-11-09 18:00,172.16.0.68,23,Telnet Scan,Baja,Probe masivo en puerto 23
+2025-11-10 09:00,192.168.1.80,443,Phishing,Baja,URL fraudulenta alojada en S3
+2025-11-05 05:50,10.0.0.81,22,Brute Force,Media,SSH brute-force desde botnet
+2025-11-07 15:40,172.16.0.69,21,Brute Force,Media,FTP bots con lista de passwords
+2025-11-06 01:50,192.168.1.81,80,DDoS,Alta,Amplificación HTTP hacia /api
+2025-11-08 11:55,10.0.0.82,53,DNS Amplification,Alta,Respuesta DNS exagerada
+2025-11-04 17:05,172.16.0.70,3306,SQL Injection,Alta,Union select detectado
+2025-11-09 14:45,192.168.1.82,8080,XSS,Media,Stored XSS persistente
+2025-11-10 23:20,10.0.0.83,3389,Ransomware,Alta,Proceso cifrando home dirs
+2025-11-05 09:40,172.16.0.71,445,WannaCry,Alta,Tráfico SMB detectado
+2025-11-07 02:05,192.168.1.83,21,Brute Force,Media,Intentos FTP con diccionario
+2025-11-06 20:40,10.0.0.84,5901,Backdoor,Alta,Conexión VNC con actividad
+2025-11-08 08:25,172.16.0.72,22,Brute Force,Media,SSH: intentos desde múltiples IPs
+2025-11-04 06:05,192.168.1.84,80,DDoS,Alta,Spike de tráfico HTTP
+2025-11-09 12:00,10.0.0.85,8080,Exploit Kit,Alta,Intento de upload de webshell
+2025-11-10 02:20,172.16.0.73,3306,SQL Injection,Alta,Inyección detectada en API
+2025-11-05 16:40,192.168.1.85,25,Phishing,Baja,Correo sospechoso con adjunto
+2025-11-07 19:00,10.0.0.86,23,Telnet Scan,Baja,Escaneo continuo en puerto 23
+2025-11-06 03:35,172.16.0.74,22,Brute Force,Media,SSH: fuerza bruta automatizada
+2025-11-08 13:30,192.168.1.86,5900,Backdoor,Alta,VNC con actividad remota
+2025-11-04 09:50,10.0.0.87,53,DNS Amplification,Alta,Respuesta DNS con payload raro
+2025-11-09 07:05,172.16.0.75,21,Brute Force,Media,FTP intentos desde IPs públicas
+2025-11-10 10:45,192.168.1.87,3389,Ransomware,Alta,Proceso encriptando archivos
+2025-11-05 02:00,10.0.0.88,80,DDoS,Alta,HTTP flood a /login
+2025-11-07 14:55,172.16.0.76,8080,XSS,Media,Reflected XSS en parámetro search
+2025-11-06 21:45,192.168.1.88,3306,SQL Injection,Alta,Inyección con dump parcial
+2025-11-08 17:55,10.0.0.89,22,Brute Force,Media,SSH intentos desde botnet
+2025-11-04 01:40,172.16.0.77,25,Phishing,Baja,Campaña de phishing masiva
+2025-11-09 23:05,192.168.1.89,445,WannaCry,Alta,Actividad de cifrado masivo
+2025-11-05 20:30,10.0.0.90,8080,Exploit Kit,Alta,Ejecutor de payload detectado
+2025-11-10 06:05,172.16.0.78,21,Brute Force,Media,FTP bots con alta frecuencia
+2025-11-07 18:10,192.168.1.90,22,Brute Force,Media,SSH: fuerza bruta con diccionario
+2025-11-06 11:15,10.0.0.91,53,DNS Amplification,Alta,Respuesta DNS inusual
+2025-11-08 00:40,172.16.0.79,3306,SQL Injection,Alta,Injection en endpoint de usuarios
+2025-11-04 15:10,192.168.1.91,80,DDoS,Alta,Spike de tráfico desde relays
+2025-11-09 10:10,10.0.0.92,5901,Backdoor,Alta,Conexión VNC con shell
+2025-11-05 13:20,172.16.0.80,22,Brute Force,Media,SSH: intentos desde proxies
+2025-11-07 04:20,192.168.1.92,3389,Ransomware,Alta,Proceso crea .locked files
+2025-11-06 16:55,10.0.0.93,8080,XSS,Media,Stored XSS en área de comentarios
+2025-11-08 09:40,172.16.0.81,21,Brute Force,Media,FTP intentos repetidos
+2025-11-10 01:15,192.168.1.93,443,Phishing,Baja,Formulario de login clonado
+2025-11-05 18:55,10.0.0.94,23,Telnet Scan,Baja,Probes hacia subred interna
+2025-11-09 15:15,172.16.0.82,3306,SQL Injection,Alta,Inyección con exfiltración
+2025-11-04 12:50,192.168.1.94,80,DDoS,Alta,GET flood hacia /api/v1
+2025-11-07 06:30,10.0.0.95,22,Brute Force,Media,SSH brute-force detectado
+2025-11-08 20:20,172.16.0.83,8080,Exploit Kit,Alta,Payload con reverse shell
+2025-11-06 02:55,192.168.1.95,21,Brute Force,Media,FTP bots con lista de cuentas
+2025-11-10 14:55,10.0.0.96,3389,Ransomware,Alta,Actividad de cifrado detectada
+2025-11-09 19:45,172.16.0.84,53,DNS Amplification,Alta,Masive DNS responses detected
+2025-11-05 01:10,192.168.1.96,5900,Backdoor,Alta,VNC con actividad remota sospechosa
+2025-11-07 12:35,10.0.0.97,443,Phishing,Baja,Redirect a sitio fraudulent
+2025-11-04 22:40,172.16.0.85,3306,SQL Injection,Alta,Union select y leak
+2025-11-08 03:15,192.168.1.97,8080,XSS,Media,Reflected XSS en search param
+2025-11-06 09:25,10.0.0.98,21,Brute Force,Media,FTP attempts with common creds
+2025-11-09 02:05,172.16.0.86,22,Brute Force,Media,SSH: botnet activity detected
+2025-11-05 14:40,192.168.1.98,80,DDoS,Alta,HTTP flood hacia /cart
+2025-11-10 07:05,10.0.0.99,5901,Backdoor,Alta,Conexión VNC persistente
+2025-11-04 05:55,172.16.0.87,23,Telnet Scan,Baja,Scans to telnet port
